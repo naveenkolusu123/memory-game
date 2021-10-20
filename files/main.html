@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Card Game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="block" id="m">
+    <div class="card" data-framework="instagram" onclick="count()">
+      <img class="front" src="../img/instagram.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="instagram" onclick="count()">
+      <img class="front" src="../img/instagram.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="apple" onclick="count()">
+      <img class="front" src="../img/apple.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="apple" onclick="count()">
+      <img class="front" src="../img/apple.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="twitter" onclick="count()">
+      <img class="front" src="../img/twitter.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="twitter" onclick="count()">
+      <img class="front" src="../img/twitter.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="android" onclick="count()">
+      <img class="front" src="../img/android.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="android" onclick="count()">
+      <img class="front" src="../img/android.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="whatsapp" onclick="count()">
+      <img class="front" src="../img/whatsapp.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="whatsapp" onclick="count()">
+      <img class="front" src="../img/whatsapp.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="windows" onclick="count()">
+      <img class="front" src="../img/windows.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+	<div class="card" data-framework="windows" onclick="count()">
+      <img class="front" src="../img/windows.png"/>
+      <img class="back" src="../img/sp.png"/>
+    </div>
+    
+
+  </section>
+  <div class="counter" id="d">Clicks <span id="obj">0</span></div>
+
+<div id="popup" class="overlay" align=center>
+	<div class="score">
+                <h1 id="s">Scores</h1>
+				<div id="ele" ></div>
+                <button id="play-again" onclick="refresh()">
+                    Play again 😄
+                </button>
+	</div>
+</div>
+
+  <script src="jscript.js"></script>
+</body>
+</html>
